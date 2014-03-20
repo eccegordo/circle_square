@@ -1,0 +1,15 @@
+<h2> Squares Template </h2>
+<ul>
+{{#each item in model}}
+  <li>{{item.name}}</li>
+{{/each}}
+</ul>
+
+<hr>
+
+
+<ul>
+{{#each circle in controllers.circles.content}}
+  <li>{{circle.name}} has a diameter of {{circle.diameter}}</li>
+{{/each}}
+</ul>  
