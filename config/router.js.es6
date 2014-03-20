@@ -9,6 +9,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('squares');
+  this.resource('circles');
 });
 
 export default Router;
